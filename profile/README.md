@@ -1,11 +1,15 @@
 # .NET Microservices
-이 문서는 Les Jackson의 [.NET Microservices – Full Course](https://www.youtube.com/watch?v=DgVjEo3OGBI)를 학습한 문서입니다.
+이 문서는 Les Jackson의 유튜브 영상 [.NET Microservices – Full Course](https://www.youtube.com/watch?v=DgVjEo3OGBI)를 학습한 문서입니다.
+
+## Skill
+C#, .Net CORE, Docker, Kubernetes, RabbitMQ, gRPC, DB(RDB, In memory)
 
 ## Architecture
 ![alt text](image/Solution.png)
 ![alt text](image/Kubernetes.png)
+[기본 ASP.NET Core 포트는 80에서 8080으로 변경되었습니다.](https://learn.microsoft.com/ko-kr/dotnet/core/compatibility/containers/8.0/aspnet-port) 이에 따라 프로젝트에서 80 포트 대신 8080 포트를 사용하였습니다.
 
-## Files
+## Project Files
 - [PlatformService](https://github.com/dtdtdzNetCore/PlatformService)
 - [CommandsService](https://github.com/dtdtdzNetCore/CommandsService)
 - [Kubernetes-ymal](https://github.com/dtdtdzNetCore/.github/tree/main/profile/K8S)
